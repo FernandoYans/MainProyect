@@ -45,7 +45,6 @@ body {
 }
 
 .contenedor {
-	max-width: 1000px;
 	width: 90%;
 	margin: auto;
 	display: flex;
@@ -66,6 +65,7 @@ body {
 
 main {
 	min-height: 100vh;
+
 }
 
 main .contenido p {
@@ -86,7 +86,7 @@ main .contenido .fecha {
 	color: #ffee00;
 }
 
-main .blog .asd{
+main .blog {
     background: #a8e6cf;
     font-family: Arial, Helvetica, sans-serif;  
 }
