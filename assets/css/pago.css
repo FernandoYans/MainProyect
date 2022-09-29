@@ -95,3 +95,79 @@ footer .navbar {
 	position: sticky;
 	bottom: 0;
 }
+
+
+
+
+
+/******** MEDIA QUERIES ********/
+
+
+@media screen and (min-width: 340px) {
+	
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor {
+		display: block;
+
+	}
+
+}
+
+@media screen and (min-width: 480px) {
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor a {
+		display: inline-block;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor a {
+		display: inline-block;
+	}
+
+}
+
+@media screen and (min-width: 768px) {
+
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+
+}

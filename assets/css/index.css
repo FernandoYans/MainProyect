@@ -116,3 +116,122 @@ footer .navbar {
 	position: sticky;
 	bottom: 0;
 }
+
+
+
+/******** MEDIA QUERIES ********/
+
+
+@media screen and (min-width: 340px) {
+	
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.aside .indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+
+	.navbar .contenedor {
+		display: block;
+
+	}
+
+
+
+	footer .navbar {
+		max-width: 100%;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor a {
+		display: inline-block;
+	}
+
+	.aside .indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.navbar .contenedor a {
+		display: inline-block;
+	}
+
+	.aside indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+}
+
+@media screen and (min-width: 768px) {
+
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.aside indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 900px) {
+
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.aside indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	
+	.contenedor-imagen {
+		height: 100%;
+	}
+
+	.aside .indice a {
+		display: block;
+		margin-bottom: 10px;
+		padding-bottom: auto;
+		color: #060af8;
+	}
+
+	.navbar .contenedor {
+		display: flex;
+	}
+
+}
