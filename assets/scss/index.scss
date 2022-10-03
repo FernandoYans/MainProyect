@@ -78,16 +78,16 @@ main {
         margin-bottom: 20px;
         line-height: 30px;
         color: #000000;
-        .titulo {
-            font-family: 'Itim', cursive;
-            color: #ffee00;
-            font-weight: normal;
-            padding-top: 40px;
-            .fecha {
-                font-size: 14px;
-                color: #ffee00;
-            }
-        }
+    }
+    .titulo {
+        font-family: 'Itim', cursive;
+        color: #ffee00;
+        font-weight: normal;
+        padding-top: 40px;
+    }
+    .fecha {
+        font-size: 14px;
+        color: #ffee00;
     }
 }
 
