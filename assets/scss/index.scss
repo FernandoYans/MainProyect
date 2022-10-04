@@ -1,3 +1,4 @@
+@import "variables";
 @import "contacto";
 @import "nosotros";
 @import "pago";
@@ -81,13 +82,13 @@ main {
     }
     .titulo {
         font-family: 'Itim', cursive;
-        color: #ffee00;
+        color: $titulo_color;
         font-weight: normal;
         padding-top: 40px;
     }
     .fecha {
         font-size: 14px;
-        color: #ffee00;
+        color: $titulo_color;
     }
 }
 
@@ -106,12 +107,12 @@ aside {
         font-weight: normal;
         font-size: 24px;
         margin-bottom: 20px;
-        color: #060af8;
+        color: $aside_color;
     }
     .indice a {
         display: block;
         margin-bottom: 10px;
-        color: #060af8;
+        color: $aside_color;
     }
 }
 
@@ -143,7 +144,6 @@ footer .navbar {
 		display: block;
 
 	}
-
 
 
 	footer .navbar {
