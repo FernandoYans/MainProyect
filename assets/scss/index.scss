@@ -7,6 +7,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
 
 
+@mixin navbar ($bg, $position, $top) {
+	background-color: $bg;
+	position: $position;
+	top: $top;
+}
+
+                        //////*** ARRANCA EL HTML ***//////
+
+						
 
 * {
 	margin: 0;
@@ -31,9 +40,7 @@ body {
 
 
 .navbar {
-	background: #02ff80;
-	position: sticky;
-	top: 0;
+	@include navbar(#02ff80,sticky,0);
 
     & a {
         color: #fff;
@@ -118,8 +125,7 @@ aside {
 
 
 footer .navbar {
-	position: sticky;
-	bottom: 0;
+	@include navbar(#02ff80,sticky,0);
 }
 
 
