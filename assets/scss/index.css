@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -170,6 +171,7 @@ footer .navbar {
     display: flex;
   }
 }
+/*EXTEND*/
 * {
   margin: 0;
   padding: 0;
@@ -239,13 +241,13 @@ main .contenido p {
   line-height: 30px;
   color: #000000;
 }
-main .titulo {
+main .titulo, main .contenido > h1 {
   font-family: "Itim", cursive;
   color: #ffee00;
   font-weight: normal;
   padding-top: 40px;
 }
-main .fecha {
+main .fecha, main .contenido > h4 {
   font-size: 14px;
   color: #ffee00;
 }
@@ -306,6 +308,7 @@ footer .navbar {
     display: flex;
   }
 }
+/*EXTEND*/
 * {
   margin: 0;
   padding: 0;
@@ -375,13 +378,13 @@ main .contenido p {
   line-height: 30px;
   color: #000000;
 }
-main .titulo {
+main .titulo, main .contenido > h1 {
   font-family: "Itim", cursive;
   color: #ffee00;
   font-weight: normal;
   padding-top: 40px;
 }
-main .fecha {
+main .fecha, main .contenido > h4 {
   font-size: 14px;
   color: #ffee00;
 }
@@ -397,7 +400,7 @@ aside {
   position: sticky;
   top: 100px;
 }
-aside .titulo {
+aside .titulo, aside .contenido > h1 {
   font-family: "Itim", cursive;
   font-weight: normal;
   font-size: 24px;
@@ -466,6 +469,7 @@ footer .navbar {
     display: flex;
   }
 }
+/*EXTEND*/
 * {
   margin: 0;
   padding: 0;
@@ -535,13 +539,13 @@ main .contenido p {
   line-height: 30px;
   color: #000000;
 }
-main .titulo {
+main .titulo, main .contenido > h1 {
   font-family: "Itim", cursive;
   color: #ffee00;
   font-weight: normal;
   padding-top: 40px;
 }
-main .fecha {
+main .fecha, main .contenido > h4 {
   font-size: 14px;
   color: #ffee00;
 }
@@ -557,7 +561,7 @@ aside {
   position: sticky;
   top: 100px;
 }
-aside .titulo {
+aside .titulo, aside .contenido > h1 {
   font-family: "Itim", cursive;
   font-weight: normal;
   font-size: 24px;
@@ -626,6 +630,8 @@ footer .navbar {
     display: flex;
   }
 }
+/*MIXIN*/
+/*EXTEND*/
 * {
   margin: 0;
   padding: 0;
@@ -695,13 +701,13 @@ main .contenido p {
   line-height: 30px;
   color: #000000;
 }
-main .titulo {
+main .titulo, main .contenido > h1 {
   font-family: "Itim", cursive;
   color: #ffee00;
   font-weight: normal;
   padding-top: 40px;
 }
-main .fecha {
+main .fecha, main .contenido > h4 {
   font-size: 14px;
   color: #ffee00;
 }
@@ -717,7 +723,7 @@ aside {
   position: sticky;
   top: 100px;
 }
-aside .titulo {
+aside .titulo, aside .contenido > h1 {
   font-family: "Itim", cursive;
   font-weight: normal;
   font-size: 24px;

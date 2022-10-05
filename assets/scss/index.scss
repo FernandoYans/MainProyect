@@ -6,12 +6,27 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
 
+/*MIXIN*/
 
 @mixin navbar ($bg, $position, $top) {
 	background-color: $bg;
 	position: $position;
 	top: $top;
 }
+
+/*EXTEND*/
+
+.contenido {
+	@extend .contenido;
+	> h1 {
+		@extend .titulo;
+	}
+	> h4 {
+		@extend .fecha
+	}
+}
+
+
 
                         //////*** ARRANCA EL HTML ***//////
 

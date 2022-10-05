@@ -7,6 +7,20 @@
 	top: $top;
 }
 
+/*EXTEND*/
+
+.contenido {
+	@extend .contenido;
+	> h1 {
+		@extend .titulo;
+	}
+	> h4 {
+		@extend .fecha
+	}
+}
+
+
+
                         //////*** ARRANCA EL HTML ***//////
 
 						
